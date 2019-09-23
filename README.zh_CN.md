@@ -77,6 +77,9 @@ let result = await app.mssql.get('db1').query("select 1 as state");
 请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
 
 配置demo：
+
+
+```js
    mssql: {
         default: {
             port: 1433,
@@ -116,7 +119,7 @@ let result = await app.mssql.get('db1').query("select 1 as state");
         //     },
         // },
   }
-
+```
 
 ## 单元测试
 
