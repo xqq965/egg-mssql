@@ -76,6 +76,48 @@ let result = await app.mssql.get('db1').query("select 1 as state");
 
 请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
 
+配置demo：
+   mssql: {
+        default: {
+            port: 1433,
+            pool: {
+                max: 10,
+                min: 0,
+                idleTimeoutMillis: 30000,
+            },
+        },
+        app: true,
+        agent: false,
+
+        // Single Database
+          client: {
+            server: 'serverip',
+            port: '1433',
+            user: 'username',
+            password: 'pwd',
+            database: 'dbname',
+          }
+          
+        // Multi Databases
+        // clients: {
+        //     db1: {
+        //         server: 'ip',
+        //         port: '1433',
+        //         user: 'username1',
+        //         password: 'pwd1',
+        //         database: 'dbname1',
+        //     },
+        //     db2: {
+        //         server: 'ip',
+        //         port: '1433',
+        //         user: 'username2',
+        //         password: 'pwd2',
+        //         database: 'dbname2',
+        //     },
+        // },
+  }
+
+
 ## 单元测试
 
 <!-- 描述如何在单元测试中使用此插件，例如 schedule 如何触发。无则省略。-->
