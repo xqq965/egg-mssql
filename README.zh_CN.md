@@ -60,7 +60,7 @@ exports.mssql = {
 - How: 描述这个插件是怎样使用的，具体的示例代码，甚至提供一个完整的示例，并给出链接。
 
 demo:
-
+```js
 query:
 
 //单库使用
@@ -70,7 +70,7 @@ let result = await app.mssql.query("select 1 as state");
 //多库
 
 let result = await app.mssql.get('db1').query("select 1 as state");    
-       
+```       
 
 ## 详细配置
 
