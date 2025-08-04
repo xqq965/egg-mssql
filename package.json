@@ -1,28 +1,12 @@
 {
-  "name": "rayplus-egg-mssql",
-  "version": "1.0.6",
-  "description": "基本mssql的egg插件",
+  "name": "rayplus-egg-mssql3",
+  "version": "1.0.1",
+  "description": "add exec execdo function ",
   "eggPlugin": {
     "name": "mssql"
   },
-  "keywords": [
-    "egg",
-    "eggPlugin",
-    "egg-plugin"
-  ],
   "dependencies": {
     "mssql": "^4.3.0"
-  },
-  "devDependencies": {
-    "autod": "^3.0.0",
-    "autod-egg": "^1.0.0",
-    "egg": "^2.0.0",
-    "egg-bin": "^4.3.0",
-    "egg-ci": "^1.8.0",
-    "egg-mock": "^3.13.0",
-    "eslint": "^4.11.0",
-    "eslint-config-egg": "^5.1.0",
-    "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -47,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csq121605366/egg-mssql.git"
+    "url": "git+https://github.com/xqq965/egg-mssql.git"
   },
+  "author": "windwall",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/csq121605366/egg-mssql/issues"
+    "url": "https://github.com/xqq965/egg-mssql/issues"
   },
-  "homepage": "https://github.com/csq121605366/egg-mssql#readme",
-  "author": "csq",
-  "license": "MIT"
+  "homepage": "https://github.com/xqq965/egg-mssql#readme"
 }
